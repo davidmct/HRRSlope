@@ -1,0 +1,27 @@
+<resources>
+  <fitContributions>
+
+    <fitField id="0"
+      displayInChart="true"
+      displayInActivityLaps="false"
+      displayInActivitySummary="false"
+      sortOrder="0"
+      precision="0"
+      chartTitle="@Strings.lCurrentHeartRateChartTitle"
+      dataLabel="@Strings.lAuxHeartRate"
+      unitLabel="@Strings.lHeartRateUnits"
+      fillColor="#f25b0a" />
+
+    <fitField id="1"
+      displayInChart="true"
+      displayInActivityLaps="false"
+      displayInActivitySummary="false"
+      sortOrder="1"
+      precision="0"
+      chartTitle="@Strings.lDeltaHeartRateChartTitle"
+      dataLabel="@Strings.lDeltaHeartRate"
+      unitLabel="@Strings.lHeartRateUnits"
+      fillColor="#f65b3a" />
+
+  </fitContributions>
+</resources>
