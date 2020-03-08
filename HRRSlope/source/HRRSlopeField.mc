@@ -290,7 +290,7 @@ class HRRSlopeView extends Ui.DataField {
         mFitContributor.compute(mSensor);
    	}
    
-	function manageSensor() {
+	function manageSensor(dc) {
 		var mStartDataCollection = false;
 	 	
 	 	// don't force skip of this function if data collection started as possible to lose sensor connection  	
@@ -354,7 +354,7 @@ class HRRSlopeView extends Ui.DataField {
         	mSensor.data.currentHeartRate = 100;
         }
 
-        if (true == manageSensor()) {
+        if (true == manageSensor(dc)) {
 	    	// need to draw all data elements
 	    	System.println("Entered text draw of field");
 	    	// show app name
