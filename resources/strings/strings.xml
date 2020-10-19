@@ -3,7 +3,7 @@
     <string id="AppVersion">0.1.0</string>
     <string id="lHeartRateUnits">bpm</string>
     <string id="lAuxHRAntID">ANT+ ID of aux. HRM</string>
-    <string id="lAuxHRAntIDPrompt">Enter 0 to search for any HRM</string>
+    <string id="lAuxHRAntIDP">Enter 0 to search for any HRM</string>
     <string id="lAppTitleLine">HRR Slope</string>
     <string id="lStartingSearch">Starting...</string>
     <string id="lMeasssageSeek">Seeking...</string>
@@ -12,6 +12,6 @@
     <string id="lAuxHeartRate">Strap HR</string>
     <string id="lOHRHeartRate">OHR HR</string>
     <string id="lDeltaHeartRate">Delta HR</string>    
-    <string id="lCurrentHeartRateChartTitle">ANT+ Strap Heart Rate</string>
-    <string id="lDeltaHeartRateChartTitle">OHR - strap (delta) Heart Rate</string>
+    <string id="lCurrentHeartRateCT">ANT+ Strap Heart Rate</string>
+    <string id="lDeltaHeartRateCT">OHR - strap (delta) Heart Rate</string>
 </strings>
